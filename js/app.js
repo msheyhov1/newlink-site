@@ -134,8 +134,7 @@ function renderCatalog(){
     d.innerHTML='<div class="meta"><div class="pc">'+CATS[p.cat][L]+'</div>'+
       '<div class="pn">'+p[L]+'</div>'+
       '<div class="po">'+(L==='ru'?p.oru:p.oen)+'</div>'+
-      '<div class="pmeta"><span class="tag">'+(L==='ru'?'Сезон':'Season')+': '+(L==='ru'?p.sru:p.sen)+'</span>'+
-      '<span class="tag">'+(L==='ru'?p.pru:p.pen)+'</span></div></div>';
+      '<div class="pmeta"><span class="tag">'+(L==='ru'?'Сезон':'Season')+': '+(L==='ru'?p.sru:p.sen)+'</span></div></div>';
     g.appendChild(d);
   });
 }
