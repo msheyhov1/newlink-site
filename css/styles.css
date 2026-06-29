@@ -45,8 +45,8 @@ section{padding:84px 0;position:relative}
 header{position:sticky;top:0;z-index:60;background:rgba(245,242,234,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
 .hd{height:74px;display:flex;align-items:center;gap:28px}
 .logo{display:flex;align-items:center;gap:12px;flex-shrink:0}
-.logo .n{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--gold);display:flex;align-items:center;justify-content:center;font-family:"Playfair Display",serif;color:var(--gold);font-size:19px}
-.logo .t{font-weight:800;font-size:18px;color:var(--green)}
+.logo .mark{width:40px;height:40px;color:#17255C;flex-shrink:0}
+.logo .t{font-weight:800;font-size:18px;color:#17255C}
 .nav{display:none;align-items:center;gap:26px;margin-left:6px;white-space:nowrap}
 @media(min-width:980px){.nav{display:flex}}
 .nav a{color:var(--muted);font-size:14.5px;font-weight:600;transition:.15s}
@@ -202,6 +202,7 @@ footer{background-color:var(--green-d);background-image:radial-gradient(rgba(255
 .ft{display:flex;flex-direction:column;gap:18px}
 @media(min-width:720px){.ft{flex-direction:row;align-items:center;justify-content:space-between}}
 footer .logo .t{color:#fff}
+footer .logo .mark{color:#fff}
 .ft .tag{color:rgba(255,255,255,.6);font-size:13.5px}
 .ft .lk{display:flex;gap:18px;font-size:14px;font-weight:600}
 .ft .lk a{color:rgba(255,255,255,.8)}
