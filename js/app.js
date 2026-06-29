@@ -187,6 +187,6 @@ if(_burger&&_mm){ _burger.addEventListener('click',()=>{const o=_mm.classList.to
 
 /* INIT */
 initGlobe();
-applyLang('ru');
+applyLang('en');
 window.addEventListener('load',animateCounters);
 setTimeout(animateCounters,300);

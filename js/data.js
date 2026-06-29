@@ -96,6 +96,6 @@ const TOPO={"type":"Topology","objects":{"countries":{"type":"GeometryCollection
 ;
 
 /* ============ STATE / I18N ============ */
-let L='ru', activeCountry='eg', selMonth=new Date().getMonth(), catFilter='all', oriFilter='all';
+let L='en', activeCountry='eg', selMonth=new Date().getMonth(), catFilter='all', oriFilter='all';
 const MONTHS={ru:['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'],en:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']};
 
