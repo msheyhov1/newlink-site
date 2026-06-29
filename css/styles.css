@@ -45,7 +45,7 @@ section{padding:84px 0;position:relative}
 header{position:sticky;top:0;z-index:60;background:rgba(245,242,234,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
 .hd{height:74px;display:flex;align-items:center;gap:28px}
 .logo{display:flex;align-items:center;gap:12px;flex-shrink:0}
-.logo .mark{width:34px;height:46px;color:var(--gold);flex-shrink:0}
+.logo .mark{width:30px;height:40px;color:var(--gold);flex-shrink:0}
 .logo .t{font-weight:800;font-size:18px;color:var(--green)}
 .nav{display:none;align-items:center;gap:26px;margin-left:6px;white-space:nowrap}
 @media(min-width:980px){.nav{display:flex}}
