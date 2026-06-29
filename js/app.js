@@ -2,7 +2,7 @@ function applyLang(l){
   L=l; document.documentElement.lang=l;
   document.querySelectorAll('[data-en]').forEach(el=>{const v=el.getAttribute('data-'+l); if(v!==null) el.innerHTML=v;});
   document.querySelectorAll('#lang button').forEach(b=>b.classList.toggle('on', b.dataset.set===l));
-  renderAdv(); renderRegions(); renderGeo(activeCountry); renderMonths(); renderSeason(); renderCatFilters(); renderOriFilters(); renderCatalog(); renderLog();
+  renderAdv(); renderRegions(); renderGeo(activeCountry); renderCatFilters(); renderOriFilters(); renderCatalog(); renderLog();
 }
 
 /* ADV */
