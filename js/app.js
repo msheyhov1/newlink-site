@@ -65,10 +65,10 @@ function initGlobe(){
     ctx.beginPath(); path(grat); ctx.strokeStyle='rgba(255,255,255,.05)'; ctx.lineWidth=.5; ctx.stroke();
     for(const fe of feats){const code=ISO2CODE[+fe.id]; ctx.beginPath(); path(fe);
       if(code){const on=code===hoverCode||code===activeCountry;
-        ctx.fillStyle=on?'#E8C552':'rgba(201,162,39,.74)'; ctx.fill();
+        ctx.fillStyle=on?'#B7E081':'rgba(143,197,107,.82)'; ctx.fill();
         ctx.lineWidth=on?1.5:.7; ctx.strokeStyle=on?'#fff':'rgba(255,255,255,.4)'; ctx.stroke();}
       else{ctx.fillStyle='rgba(255,255,255,.07)'; ctx.fill(); ctx.lineWidth=.5; ctx.strokeStyle='rgba(255,255,255,.12)'; ctx.stroke();}}
-    ctx.beginPath(); path({type:'Sphere'}); ctx.strokeStyle='rgba(201,162,39,.28)'; ctx.lineWidth=1; ctx.stroke();
+    ctx.beginPath(); path({type:'Sphere'}); ctx.strokeStyle='rgba(143,197,107,.32)'; ctx.lineWidth=1; ctx.stroke();
   }
   function tick(){
     if(target!=null){rot+=norm(-target.lon-rot)*0.12; phi+=(clamp(-target.lat,-52,52)-phi)*0.12; if(Math.abs(norm(-target.lon-rot))<0.5)target=null;}
