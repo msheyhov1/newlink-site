@@ -43,7 +43,7 @@ const CATS={
 };
 /* img: token name or '' ; tint for cards without photo */
 const PROD=[
- {ru:'Манго',en:'Mango',cat:'tropical',img:'img/p02.webp',oru:'Египет · Перу · Таиланд',oen:'Egypt · Peru · Thailand',sru:'Круглый год',sen:'Year-round',pru:'4–6 кг, 1 слой',pen:'4–6 kg, single layer',ori:['eg','pe','th','br','ci','gh']},
+ {ru:'Манго',en:'Mango',cat:'tropical',img:'img/p02.webp?v=5',oru:'Египет · Перу · Таиланд',oen:'Egypt · Peru · Thailand',sru:'Круглый год',sen:'Year-round',pru:'4–6 кг, 1 слой',pen:'4–6 kg, single layer',ori:['eg','pe','th','br','ci','gh']},
  {ru:'Мандарин',en:'Mandarin',cat:'citrus',img:'img/p06.webp',oru:'Турция · Китай',oen:'Türkiye · China',sru:'Окт–Март',sen:'Oct–Mar',pru:'10 кг',pen:'10 kg',ori:['tr','cn']},
  {ru:'Ананас',en:'Pineapple',cat:'tropical',img:'img/p03.webp',oru:'Коста-Рика · Уганда',oen:'Costa Rica · Uganda',sru:'Круглый год',sen:'Year-round',pru:'по штукам',pen:'per piece',ori:['cr','ug','th']},
  {ru:'Нектарин',en:'Nectarine',cat:'stone',img:'img/p07.webp',oru:'Чили · Турция · ЮАР',oen:'Chile · Türkiye · South Africa',sru:'Лето',sen:'Summer',pru:'2.5 кг',pen:'2.5 kg',ori:['cl','tr','za']},
