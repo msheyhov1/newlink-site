@@ -43,7 +43,7 @@ const CATS={
 };
 /* img: token name or '' ; tint for cards without photo */
 const PROD=[
- {ru:'Манго',en:'Mango',cat:'tropical',img:'img/p02.webp?v=7',oru:'Египет · Перу · Таиланд',oen:'Egypt · Peru · Thailand',sru:'Круглый год',sen:'Year-round',pru:'4–6 кг, 1 слой',pen:'4–6 kg, single layer',ori:['eg','pe','th','br','ci','gh']},
+ {ru:'Манго',en:'Mango',cat:'tropical',img:'img/p02.webp?v=8',oru:'Египет · Перу · Таиланд',oen:'Egypt · Peru · Thailand',sru:'Круглый год',sen:'Year-round',pru:'4–6 кг, 1 слой',pen:'4–6 kg, single layer',ori:['eg','pe','th','br','ci','gh']},
  {ru:'Мандарин',en:'Mandarin',cat:'citrus',img:'img/p06.webp',oru:'Турция · Китай',oen:'Türkiye · China',sru:'Окт–Март',sen:'Oct–Mar',pru:'10 кг',pen:'10 kg',ori:['tr','cn']},
  {ru:'Ананас',en:'Pineapple',cat:'tropical',img:'img/p03.webp',oru:'Коста-Рика · Уганда',oen:'Costa Rica · Uganda',sru:'Круглый год',sen:'Year-round',pru:'по штукам',pen:'per piece',ori:['cr','ug','th']},
  {ru:'Нектарин',en:'Nectarine',cat:'stone',img:'img/p07.webp',oru:'Чили · Турция · ЮАР',oen:'Chile · Türkiye · South Africa',sru:'Лето',sen:'Summer',pru:'2.5 кг',pen:'2.5 kg',ori:['cl','tr','za']},
@@ -58,7 +58,7 @@ const PROD=[
  {ru:'Папайя',en:'Papaya',cat:'tropical',img:'img/papaya.webp',tint:'#E0762B',oru:'Таиланд · Индонезия',oen:'Thailand · Indonesia',sru:'Круглый год',sen:'Year-round',pru:'5 кг',pen:'5 kg',ori:['th','id']},
  {ru:'Личи',en:'Lychee',cat:'exotic',img:'img/lichi.webp',tint:'#C2456B',oru:'Китай · ЮАР',oen:'China · South Africa',sru:'Лето',sen:'Summer',pru:'2 кг',pen:'2 kg',ori:['cn','za','th','id']},
  {ru:'Гранат',en:'Pomegranate',cat:'tropical',img:'img/granat.webp',tint:'#A82B33',oru:'Турция · Китай',oen:'Türkiye · China',sru:'Осень–Зима',sen:'Autumn–Winter',pru:'5 кг',pen:'5 kg',ori:['tr','cn']},
- {ru:'Батат',en:'Sweet potato',cat:'veg',img:'img/batat.webp?v=7',tint:'#B5651F',oru:'Египет',oen:'Egypt',sru:'Круглый год',sen:'Year-round',pru:'5 кг',pen:'5 kg',ori:['eg']},
+ {ru:'Батат',en:'Sweet potato',cat:'veg',img:'img/batat.webp?v=8',tint:'#B5651F',oru:'Египет',oen:'Egypt',sru:'Круглый год',sen:'Year-round',pru:'5 кг',pen:'5 kg',ori:['eg']},
  {ru:'Перец рамиро',en:'Ramiro pepper',cat:'veg',img:'img/p13.webp',tint:'#C23B33',oru:'Турция · Египет',oen:'Türkiye · Egypt',sru:'Круглый год',sen:'Year-round',pru:'5 кг',pen:'5 kg',ori:['tr','eg']},
  {ru:'Гигантское авокадо',en:'Giant avocado',cat:'premium',img:'img/p14.webp',tint:'#3E6B2E',oru:'Уганда',oen:'Uganda',sru:'Круглый год',sen:'Year-round',pru:'по штукам',pen:'per piece',ori:['ug']},
  {ru:'Сахарное яблоко',en:'Sugar apple',cat:'premium',img:'img/saharnoe.webp',tint:'#7C9A6A',oru:'Таиланд',oen:'Thailand',sru:'Сезон',sen:'Seasonal',pru:'2 кг',pen:'2 kg',ori:['th']},
